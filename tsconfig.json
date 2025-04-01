@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "target": "ES2021",
+    "lib": ["DOM", "ES2021"],
+
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
